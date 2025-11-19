@@ -1,5 +1,10 @@
-/*
-// Definition for a Node.
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+
 class Node {
     public int val;
     public List<Node> neighbors;
@@ -16,7 +21,6 @@ class Node {
         neighbors = _neighbors;
     }
 }
-*/
 
 class Solution{
     public Node cloneGraph(Node node){
